@@ -61,27 +61,27 @@ No transactions are signed or broadcast at any point.
 ### Contracts
 - **contracts/**  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - `mapp.sol` — a Solidity contract focused on mappings (key–value storage).
-  - `error.sol` — a Solidity contract focused on error handling.
+  - `mapp.sol` - a Solidity contract focused on mappings (key–value storage).
+  - `error.sol` - a Solidity contract focused on error handling.
 
 ### Configuration
 - **config/**  
-  - `base.networks.json` — RPC endpoints, chainIds, and explorer references  
+  - `base.networks.json` - RPC endpoints, chainIds, and explorer references  
 
 ### Scripts
 - **scripts/**  
-  - `deploy-contracts.sh` — helper for deploying contracts to Base Sepolia  
-  - `sample-addresses.json` — known addresses used during validation  
+  - `deploy-contracts.sh` - helper for deploying contracts to Base Sepolia  
+  - `sample-addresses.json` - known addresses used during validation  
 
 ### Documentation
 - **docs/**  
-  - `overview.md` — design goals and read-only philosophy  
-  - `aa-notes.md` — notes on Base account abstraction terminology  
+  - `overview.md` - design goals and read-only philosophy  
+  - `aa-notes.md`- notes on Base account abstraction terminology  
 
 ### Metadata
-- **package.json** — dependency manifest  
-- **LICENSE** — MIT license  
-- **README.md** — project documentation  
+- **package.json** - dependency manifest  
+- **LICENSE** - MIT license  
+- **README.md** - project documentation  
 
 ---
 
