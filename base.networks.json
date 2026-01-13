@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "RPC endpoints, chainIds, and explorer references for Base networks.",
+  "networks": {
+    "base-mainnet": {
+      "name": "Base Mainnet",
+      "chainId": 8453,
+      "rpc": {
+        "default": "https://mainnet.base.org",
+        "fallbacks": [
+          "https://base.llamarpc.com",
+          "https://rpc.ankr.com/base"
+        ]
+      },
+      "explorer": {
+        "name": "BaseScan",
+        "url": "https://basescan.org"
+      }
+    },
+    "base-sepolia": {
+      "name": "Base Sepolia",
+      "chainId": 84532,
+      "rpc": {
+        "default": "https://sepolia.base.org",
+        "fallbacks": [
+          "https://base-sepolia-rpc.publicnode.com"
+        ]
+      },
+      "explorer": {
+        "name": "BaseScan Sepolia",
+        "url": "https://sepolia.basescan.org"
+      }
+    }
+  },
+  "defaults": {
+    "network": "base-sepolia",
+    "rpcTimeoutMs": 10000
+  }
+}
